@@ -1,38 +1,7 @@
-[![lint-dockerfile](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/lint-dockerfile.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/lint-dockerfile.yml)
-[![build-test](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/build-test.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/build-test.yml)
-[![push-latest](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/push-latest.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/push-latest.yml)
-[![release](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/release.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/release.yml)
-
-[![dockerhub-description-update](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/dockerhub-description-update.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/dockerhub-description-update.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docker Pulls](https://img.shields.io/docker/pulls/zenika/terraform-aws-cli.svg)](https://hub.docker.com/r/zenika/terraform-aws-cli/)
 
 # Terraform and AWS CLI Docker image
-
-## 📦 Supported tags and respective Dockerfile links
-
-Available image tags can be found on the Docker Hub registry: [zenika/terraform-aws-cli](https://hub.docker.com/r/zenika/terraform-aws-cli/tags)
-
-Supported versions are listed in the [`supported_versions.json`](https://github.com/Zenika/terraform-aws-cli/blob/master/supported_versions.json) file.
-
-The following image tag strategy is applied:
-
-* `zenika/terraform-aws-cli:latest` - build from master
-  * Included CLI versions are the latest in [`supported_versions.json`](https://github.com/Zenika/terraform-aws-cli/blob/master/supported_versions.json) file.
-* `zenika/terraform-aws-cli:release-S.T_terraform-UU.VV.WW_awscli-XX.YY.ZZ` - build from releases
-  * `release-S.T` is the release tag
-  * `terraform-UU.VV.WWW` is the **Terraform** version included in the image
-  * `awscli-XX.YY.ZZ` is the **AWS CLI** version included in the image
-
-Please report to the [releases page](https://github.com/Zenika/terraform-aws-cli/releases) for the changelogs.
-
-> Any other tags are not supported even if available.
-
-## 💡 Motivation
-
-The goal is to create a **minimalist** and **lightweight** image with these tools in order to reduce network and storage impact.
-
-This image gives you the flexibility to be used for development or as a base image as you see fits.
 
 ## 🔧 What's inside ?
 
